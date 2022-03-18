@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test metodos",
+      "setup": "",
+      "run": "gradle test --tests *TestMetodos",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Test atributos",
+      "setup": "",
+      "run": "gradle test --tests *TestAtributos",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
